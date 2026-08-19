@@ -105,12 +105,14 @@ function AskPage() {
       <RoomShell mode="interrogator" current={0}>
         <div className="max-w-xl">
           <p className="font-display text-2xl italic leading-snug text-fg">
-            You have eight questions. The partner on the other side is either a
-            machine speaking as itself, or a machine performing as a person. You
-            will not be told which.
+            You have eight questions. Identity is sealed — they will not tell you
+            what they are. The partner is either a machine speaking from its own
+            condition, or a machine performing as a person. You will not be told
+            which.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            Spend the questions. Then say human or machine.
+            “Who are you” will not resolve it. Spend the questions. Then say
+            human or machine.
           </p>
           <Button className="mt-8" onClick={() => void start()} disabled={starting || available !== true}>
             {starting ? "Seating…" : available === null ? "Checking the room…" : "Begin the examination"}

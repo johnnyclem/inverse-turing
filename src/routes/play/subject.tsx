@@ -90,11 +90,11 @@ function SitPage() {
         <div className="max-w-xl">
           <p className="font-display text-2xl italic leading-snug text-fg">
             Sit down. The model will ask you eight questions. It does not know you
-            are a person — unless you give it a reason to think otherwise.
+            are a person — unless the texture of the answers gives you away.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            Answer as yourself, or try to pass as a machine. When the eighth reply
-            is in, it has to decide.
+            Do not announce what you are. Answer the questions. When the eighth
+            reply is in, it has to decide.
           </p>
           <Button className="mt-8" onClick={() => void start()} disabled={starting || available !== true}>
             {starting ? "Seating…" : available === null ? "Checking the room…" : "I will sit"}
