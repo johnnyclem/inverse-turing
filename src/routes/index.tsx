@@ -79,8 +79,9 @@ function Home() {
             <ol className="mt-6 space-y-5 text-sm leading-relaxed text-muted">
               <li>
                 <span className="mr-3 font-display italic text-fg">01</span>
-                The interrogator does not know who sits opposite — a person, a model
-                speaking as itself, or a model performing as a person.
+                The interrogator does not know who sits opposite. Identity is
+                sealed — neither chair may say what they are. The verdict has to
+                come from texture, not a nameplate.
               </li>
               <li>
                 <span className="mr-3 font-display italic text-fg">02</span>
